@@ -13,6 +13,7 @@ spec:
       labels:
         app: nginx-ingress
     spec:
+      hostNetwork: true
       serviceAccountName: nginx-ingress
       containers:
       - image: nginxdemos/nginx-ingress:1.1.0
