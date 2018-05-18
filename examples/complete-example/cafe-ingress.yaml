@@ -8,8 +8,7 @@ spec:
     - cafe.example.com
     secretName: cafe-secret
   rules:
-  - host: cafe.example.com
-    http:
+  - http:
       paths:
       - path: /tea
         backend:
